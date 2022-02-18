@@ -1,0 +1,35 @@
+{
+    "name": "cyptonewsapi",
+    "version": "1.0.0",
+    "description": "Aggregates crypto related news from different sources, this includes announcements, launch, listings etc.",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon index.js",
+        "prod": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/SanCrystal/cyptonewsapi.git"
+    },
+    "keywords": [
+        "crypto",
+        "news",
+        "api"
+    ],
+    "author": "Arthur",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/SanCrystal/cyptonewsapi/issues"
+    },
+    "homepage": "https://github.com/SanCrystal/cyptonewsapi#readme",
+    "dependencies": {
+        "axios": "^0.24.0",
+        "cheerio": "^1.0.0-rc.10",
+        "dotenv": "^11.0.0",
+        "express": "^4.17.2",
+        "mongoose": "^6.2.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    }
+}

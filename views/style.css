@@ -1,0 +1,78 @@
+*,
+::after,
+::before,
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+}
+
+.news-container {
+    display: flex;
+    padding: 1.5rem 2rem;
+    font-family: 'Montserrat', sans-serif;
+    flex-direction: column;
+    width: 70vw;
+}
+
+.img {
+    height: 11rem;
+}
+
+img {
+    height: 100%;
+}
+
+.news h2 {
+    color: #6A899C;
+}
+
+.news {
+    display: flex;
+    box-shadow: 0.3px 0.3px 5px grey;
+    margin: .4rem 0;
+    background-color: #FEFFFE;
+}
+
+.news:hover {
+    background-color: #F3F3F2;
+}
+
+.watching i {
+    font-size: 2rem;
+    padding: 0 1rem;
+}
+
+.news-content {
+    font-size: 3.5rem;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    padding: 0 1.5rem;
+    cursor: pointer;
+}
+
+.details {
+    display: flex;
+    padding: 0.5rem 1rem;
+    justify-content: space-between;
+    font-size: 3rem;
+}
+
+strong {
+    font-size: 1.6rem !important;
+    margin-right: 1rem;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
